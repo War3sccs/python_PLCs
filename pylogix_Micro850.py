@@ -28,6 +28,7 @@ logger_paddle.addHandler(file_handler)
 logger_paddle.setLevel(logging.INFO)
 # logger_paddle.setLevel(logging.WARNING)
 
+# TODO:2.实际读写开关量/浮点量
 # 读开关量
 alarm_value = None
 alarm_status = None
